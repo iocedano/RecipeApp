@@ -9,7 +9,7 @@ export default () => (
   <Router>
     <div>
       {Config.map((route, i) => (
-        <Route path={route.path} component={route.component} />
+        <Route key={i} {...route} />
       ))}
     </div>
   </Router>
