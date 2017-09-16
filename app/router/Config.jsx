@@ -1,7 +1,4 @@
-import React from 'react'
-
-import Home from '../containers/home.jsx';
-
+import Home from '../containers/home';
 
 // Lists of Routes
 const Config = [{

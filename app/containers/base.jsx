@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import Nav from '../components/Nav.jsx'
+import Nav from '../components/Nav';
 
 
 class Base extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render () {
     return (
@@ -24,5 +22,9 @@ class Base extends Component {
     )
   }
 }
+
+Base.propTypes = {
+  children: PropTypes.element.isRequired
+};
 
 export default Base;

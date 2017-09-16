@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 
-import Base from './base.jsx';
+import Base from './base';
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render () {
     return (
       <Base>

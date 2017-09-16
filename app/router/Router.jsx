@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom';
-import Config from './Config.jsx';
+
+import Config from './Config';
 
 export default () => (
   <Router>
@@ -13,5 +14,4 @@ export default () => (
       ))}
     </div>
   </Router>
-);;
-
+);
